@@ -16,6 +16,7 @@
 		D9AAF6D21C91B6960022E092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AAF6D01C91B6960022E092 /* LaunchScreen.storyboard */; };
 		D9AAF6DD1C91B6960022E092 /* stack1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAF6DC1C91B6960022E092 /* stack1Tests.m */; };
 		D9AAF6E81C91B6960022E092 /* stack1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAF6E71C91B6960022E092 /* stack1UITests.m */; };
+		D9AAF7001C91C7570022E092 /* Said.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAF6FF1C91C7570022E092 /* Said.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D9AAF6E31C91B6960022E092 /* stack1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stack1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AAF6E71C91B6960022E092 /* stack1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stack1UITests.m; sourceTree = "<group>"; };
 		D9AAF6E91C91B6960022E092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AAF6FE1C91C7570022E092 /* Said.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Said.h; sourceTree = "<group>"; };
+		D9AAF6FF1C91C7570022E092 /* Said.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Said.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				D9AAF6D31C91B6960022E092 /* Info.plist */,
 				D9AAF6CB1C91B6960022E092 /* stack1.xcdatamodeld */,
 				D9AAF6BF1C91B6960022E092 /* Supporting Files */,
+				D9AAF6FE1C91C7570022E092 /* Said.h */,
+				D9AAF6FF1C91C7570022E092 /* Said.m */,
 			);
 			path = stack1;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9AAF7001C91C7570022E092 /* Said.m in Sources */,
 				D9AAF6C71C91B6960022E092 /* ViewController.m in Sources */,
 				D9AAF6C41C91B6960022E092 /* AppDelegate.m in Sources */,
 				D9AAF6CD1C91B6960022E092 /* stack1.xcdatamodeld in Sources */,
