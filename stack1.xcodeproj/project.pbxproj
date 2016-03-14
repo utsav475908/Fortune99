@@ -20,6 +20,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D957C25E1C971726001B1B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D957C2581C971726001B1B8E /* PulsingHaloDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AC907111850659E00A74F2E;
+			remoteInfo = PulsingHaloDemo;
+		};
+		D957C2601C971726001B1B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D957C2581C971726001B1B8E /* PulsingHaloDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AC907321850659E00A74F2E;
+			remoteInfo = PulsingHaloDemoTests;
+		};
+		D957C2621C971726001B1B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D957C2581C971726001B1B8E /* PulsingHaloDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AB7E7D91C92DD87009A3BB6;
+			remoteInfo = PulsingHalo;
+		};
 		D9AAF6D91C91B6960022E092 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9AAF6B41C91B6960022E092 /* Project object */;
@@ -37,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D957C2581C971726001B1B8E /* PulsingHaloDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PulsingHaloDemo.xcodeproj; path = "../../../../../Downloads/PulsingHalo-master/PulsingHaloDemo.xcodeproj"; sourceTree = "<group>"; };
 		D9AAF6BC1C91B6960022E092 /* stack1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stack1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AAF6C01C91B6960022E092 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9AAF6C21C91B6960022E092 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,9 +105,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D957C2591C971726001B1B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D957C25F1C971726001B1B8E /* PulsingHaloDemo.app */,
+				D957C2611C971726001B1B8E /* PulsingHaloDemoTests.xctest */,
+				D957C2631C971726001B1B8E /* PulsingHalo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D9AAF6B31C91B6960022E092 = {
 			isa = PBXGroup;
 			children = (
+				D957C2581C971726001B1B8E /* PulsingHaloDemo.xcodeproj */,
 				D9AAF6BE1C91B6960022E092 /* stack1 */,
 				D9AAF6DB1C91B6960022E092 /* stack1Tests */,
 				D9AAF6E61C91B6960022E092 /* stack1UITests */,
@@ -237,6 +270,12 @@
 			mainGroup = D9AAF6B31C91B6960022E092;
 			productRefGroup = D9AAF6BD1C91B6960022E092 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D957C2591C971726001B1B8E /* Products */;
+					ProjectRef = D957C2581C971726001B1B8E /* PulsingHaloDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D9AAF6BB1C91B6960022E092 /* stack1 */,
@@ -245,6 +284,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D957C25F1C971726001B1B8E /* PulsingHaloDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = PulsingHaloDemo.app;
+			remoteRef = D957C25E1C971726001B1B8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D957C2611C971726001B1B8E /* PulsingHaloDemoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PulsingHaloDemoTests.xctest;
+			remoteRef = D957C2601C971726001B1B8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D957C2631C971726001B1B8E /* PulsingHalo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PulsingHalo.framework;
+			remoteRef = D957C2621C971726001B1B8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D9AAF6BA1C91B6960022E092 /* Resources */ = {
@@ -508,6 +571,7 @@
 				D9AAF6EE1C91B6960022E092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9AAF6EF1C91B6960022E092 /* Build configuration list for PBXNativeTarget "stack1Tests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +580,7 @@
 				D9AAF6F11C91B6960022E092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9AAF6F21C91B6960022E092 /* Build configuration list for PBXNativeTarget "stack1UITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +589,7 @@
 				D9AAF6F41C91B6960022E092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
